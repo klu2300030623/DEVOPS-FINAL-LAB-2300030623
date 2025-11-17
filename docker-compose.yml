@@ -27,7 +27,7 @@ services:
     image: klu2300030623/2300030623-final-frontend:latest
     container_name: react
     ports:
-      - "30038:80"
+      - "30039:80"
     depends_on:
       - backend
     restart: on-failure
